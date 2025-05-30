@@ -35,16 +35,19 @@ You can install all the dependencies with:
 pip install -r requirements.txt
 ```
 ### 🏃‍♂️ Run Inference
+```
 predicted_label, confidence = predict_savedmodel(
     img_path="/path/to/dog/image.jpg", 
     model=model, 
     class_names=class_names
 )
+```
 
-(Inference via CLI (Colab))
+**(Inference via CLI (Colab))**
+```
 img_path = input("Masukkan path gambar untuk prediksi: ")
 predict_savedmodel(img_path, model, class_names)
-
+```
 ### 📦 Exported Formats
 - model.h5 — Keras HDF5 model
 
