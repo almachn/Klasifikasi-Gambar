@@ -33,7 +33,7 @@ You can install all the dependencies with:
 
 ```bash
 pip install -r requirements.txt
-
+```
 ### 🏃‍♂️ Run Inference
 predicted_label, confidence = predict_savedmodel(
     img_path="/path/to/dog/image.jpg", 
